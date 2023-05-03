@@ -2,6 +2,8 @@
   @extend %flex-center;
   font-family: $sub-font;
   padding: 10px 0;
+  position: sticky;
+  width: 100%;
 
   nav {
     width: 80vw;
@@ -14,6 +16,11 @@
         cursor: pointer;
         font-size: 20px;
         border-bottom: 1px solid white;
+        padding: 5px;
+        &:hover, &:active {
+          background: $grey;
+          border-radius: 5px;
+        }
       }
     }
   }

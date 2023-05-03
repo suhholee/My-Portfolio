@@ -9,7 +9,9 @@
 }
 
 @keyframes blink-caret {
-  from, to {
+
+  from,
+  to {
     border-color: transparent
   }
 
@@ -55,13 +57,35 @@
   }
 
   .profile {
+    position: relative;
+
     .profile-image {
+      display: block;
       border-radius: 100px;
       border: 5px solid white;
       background-color: black;
       width: 300px;
       box-shadow: 8px 8px 8px $dark-green;
       margin-left: 50px;
+    }
+
+    .profile-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: $dark-green;
+      width: 100%;
+      height: 100%;
+      opacity: 0.3;
+      margin-left: 50px;
+      width: 300px;
+      border-radius: 100px;
+      border: 5px solid white;
+      &:hover,
+      &:active {
+        transition: opacity .25s ease-in-out;
+        opacity: 0;
+      }
     }
   }
 }

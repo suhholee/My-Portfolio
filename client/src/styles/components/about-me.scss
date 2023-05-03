@@ -1,0 +1,22 @@
+.about {
+  @extend %flex-center;
+  flex-direction: column;
+  padding: 30px 0;
+
+  h1 {
+    color: white;
+    font-family: $sub-font;
+    font-size: 50px;
+    padding: 20px 50px;
+    border-bottom: 2px solid white;
+    margin: 20px auto;
+  }
+
+  .content {
+    @extend %flex-center;
+    flex-direction: column;
+    text-align: start;
+    width: 1200px;
+    font-size: 20px;
+  }
+}
