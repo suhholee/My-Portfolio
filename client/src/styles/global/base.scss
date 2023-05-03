@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $black;
+  color: white;
+  font-family: $main-font;
+  margin: 0 auto;
+}
+
+.site-wrapper {
+  margin: 0 auto;
+}

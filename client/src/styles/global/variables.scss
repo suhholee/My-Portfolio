@@ -1,0 +1,19 @@
+$green: rgb(50,237,102);
+$black: rgba(21,24,22,255);
+$dark-green: rgb(54,111,75);
+$grey: #848c8c;
+
+$main-font: 'Inter', sans-serif;
+$sub-font: 'PT Mono', monospace;
+
+%flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+%background-center {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

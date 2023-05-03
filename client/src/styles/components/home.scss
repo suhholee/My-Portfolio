@@ -1,0 +1,67 @@
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: inherit
+  }
+}
+
+.home {
+  @extend %flex-center;
+  padding: 50px 0;
+  background-image: url('../../images/background.jpeg');
+  @extend %background-center;
+  background-color: grey;
+  background-blend-mode: multiply;
+
+  .text {
+    @extend %flex-center;
+    flex-direction: column;
+
+    h1 {
+      font-size: 80px;
+      margin: 0;
+      text-shadow: 0 0 2px $dark-green, 0 0 4px $dark-green, 0 0 4px $dark-green, 0 0 4px $dark-green;
+    }
+
+    .sub-text {
+      @extend %flex-center;
+      align-items: flex-end;
+
+      .typing {
+        font-size: 30px;
+        font-family: $sub-font;
+        color: $green;
+        overflow: hidden;
+        white-space: nowrap;
+        border-right: 0.5em solid;
+        animation: typing 2.5s steps(20, end),
+          blink-caret 0.9s step-end infinite,
+      }
+    }
+
+  }
+
+  .profile {
+    .profile-image {
+      border-radius: 100px;
+      border: 5px solid white;
+      background-color: black;
+      width: 300px;
+      box-shadow: 8px 8px 8px $dark-green;
+      margin-left: 50px;
+    }
+  }
+}

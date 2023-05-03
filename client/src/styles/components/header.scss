@@ -1,0 +1,21 @@
+.header {
+  @extend %flex-center;
+  font-family: $sub-font;
+  padding: 10px 0;
+
+  nav {
+    width: 80vw;
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      @extend %flex-center;
+      justify-content: space-around;
+      li {
+        cursor: pointer;
+        font-size: 20px;
+        border-bottom: 1px solid white;
+      }
+    }
+  }
+
+}
