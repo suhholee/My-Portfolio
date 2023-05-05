@@ -10,6 +10,19 @@
     padding: 20px 50px;
     border-bottom: 2px solid white;
     margin: 20px 0 40px 0;
+    @media (max-width: 992px) {
+      font-size: 40px;
+    }
+    @media (max-width: 768px) {
+      font-size: 35px;
+    }
+    @media (max-width: 576px) {
+      font-size: 30px;
+    }
+    @media (max-width: 450px) {
+      font-size: 25px;
+      padding: 20px 20px;
+    }
   }
 
   .projects-container {
@@ -17,23 +30,42 @@
     flex-direction: column;
     width: 60vw;
 
-    .project-right {
+    .project-right, .project-left {
       @extend %flex-center;
       justify-content: space-between;
       align-items: center;
-      margin: 20px 0;
+      margin: 50px 0;
+      @media (max-width: 992px) {
+        flex-direction: column;
+        margin: 30px 0;
+      }
 
       .image {
         position: relative;
         width: 700px;
+        @media (max-width: 1350px) {
+          width: 650px;
+        }
+        @media (max-width: 1200px) {
+          width: 550px;
+        }
+        @media (max-width: 992px) {
+          width: 80vw;
+        }
+        @media (max-width: 576px) {
+          width: 90vw;
+        }
 
         img {
           display: block;
           width: 100%;
           border-radius: 30px;
-          border: 5px solid $fkl-red;
+          border: 2px solid $fkl-red;
           margin-right: 40px;
           box-shadow: 5px 5px 5px $dark-green;
+          @media (max-width: 992px) {
+            box-shadow: none;
+          }
         }
 
         .image-wrapper {
@@ -45,7 +77,7 @@
           height: 100%;
           opacity: 0.5;
           border-radius: 30px;
-          border: 5px solid $fkl-red;
+          border: 2px solid $fkl-red;
 
           &:hover,
           &:active {
@@ -55,15 +87,50 @@
         }
       }
 
+      .pl {
+        img {
+          border: 2px solid $pl-purple;
+        }
+
+        .image-wrapper {
+          border: 2px solid $pl-purple;
+        }
+      }
+
 
       .content {
-        width: 30vw;
+        width: 35vw;
         text-align: end;
-        margin-left: -80px;
+        margin-left: -50px;
         z-index: 2;
+        @media (max-width: 1350px) {
+          width: 40vw;
+        }
+        @media (max-width: 1200px) {
+          width: 45vw;
+          margin-left: -80px;
+        }
+        @media (max-width: 992px) {
+          text-align: center;
+          margin-left: 0;
+          width: 80vw;
+        }
+        @media (max-width: 576px) {
+          width: 90vw;
+        }
 
         h2 {
           font-size: 35px;
+          font-family: $sub-font;
+          @media (max-width: 1200px) {
+            font-size: 30px;
+          }
+          @media (max-width: 992px) {
+            font-size: 40px;
+          }
+          @media (max-width: 768px) {
+            font-size: 30px;
+          }
 
           a {
             color: white;
@@ -80,9 +147,12 @@
         .stacks {
           @extend %flex-center;
           justify-content: flex-end;
+          @media (max-width: 992px) {
+            justify-content: center;
+          }
 
           img {
-            width: 30px;
+            height: 20px;
             margin: 0 5px;
           }
         }
@@ -92,6 +162,21 @@
           padding: 20px 15px 30px 15px;
           color: rgb(197, 192, 192);
           border-radius: 0px;
+          @media (max-width: 1200px) {
+            font-size: 15px;
+          }
+          @media (max-width: 992px) {
+            font-size: 18px;
+            text-align: start;
+            padding: 20px 20px 20px 20px;
+          }
+          @media (max-width: 768px) {
+            font-size: 16px;
+          }
+          @media (max-width: 576px) {
+            font-size: 14px;
+          }
+          
 
           a {
             color: $green;
@@ -99,6 +184,9 @@
         }
 
         .links {
+          @media (max-width: 992px) {
+            text-align: end;
+          }
           a {
             margin: 0 auto;
 
@@ -125,6 +213,53 @@
               }
             }
           }
+        }
+      }
+    }
+
+    .project-left {
+      @media (max-width: 992px) {
+        flex-direction: column-reverse;
+      }
+      .content {
+        text-align: start;
+        margin-left: 0;
+        @media (max-width: 992px) {
+          text-align: center;
+        }
+
+        .stacks {
+          justify-content: flex-start;
+          @media (max-width: 992px) {
+            justify-content: center;
+          }
+        }
+      }
+
+      .image {
+        margin-left: -50px;
+        @media (max-width: 992px) {
+          margin-left: 0;
+        }
+      }
+      
+      .woozu {
+        img {
+          border: 2px solid grey;
+        }
+
+        .image-wrapper {
+          border: 2px solid grey;
+        }
+      }
+
+      .pi {
+        img {
+          border: 2px solid $pi-green;
+        }
+
+        .image-wrapper {
+          border: 2px solid $pi-green;
         }
       }
     }

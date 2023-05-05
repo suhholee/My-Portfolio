@@ -22,7 +22,7 @@
 
 .home {
   @extend %flex-center;
-  padding: 100px 0 50px 0;
+  padding: 120px 0 50px 0;
   background-image: url('../../images/background.jpeg');
   @extend %background-center;
   background-color: grey;
@@ -85,6 +85,37 @@
       &:active {
         transition: opacity .25s ease-in-out;
         opacity: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .home {
+    flex-direction: column-reverse;
+    .profile {
+      margin-top: 20px;
+      .profile-image {
+        width: 200px;
+        box-shadow: 5px 5px 5px $dark-green;
+        margin-left: 0;
+      }
+
+      .profile-wrapper {
+        width: 200px;
+        margin-left: 0;
+      }
+    }
+
+    .text {
+      margin-top: 20px;
+      h1 {
+        font-size: 60px;
+      }
+      .sub-text {
+        .typing {
+          font-size: 25px;
+        }
       }
     }
   }

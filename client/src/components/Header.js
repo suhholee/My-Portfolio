@@ -1,10 +1,110 @@
-import React from 'react'
+import { useState, useEffect } from 'react'
 import { Link } from 'react-scroll'
 
 const Header = () => {
+
+  // ! States
+  const [isOpen, setIsOpen] = useState(false)
+
+  // ! Executions
+  const handleMenuClick = () => {
+    setIsOpen(!isOpen)
+  }
+
   return (
-    <header className="header">
-      <nav>
+    <header className='header'>
+      <button className='menu-toggle' onClick={handleMenuClick}>
+        &#9776;
+      </button>
+      <nav className='desktop-nav'>
+        <ul>
+          <li>
+            <Link
+              activeClass="active"
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Who Am I?
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="experience"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Experience
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="education"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Education
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="interests"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Interests
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Contact
+            </Link>
+          </li>
+        </ul>
+      </nav>
+      <nav className={isOpen ? 'mobile-nav open' : 'mobile-nav closed'}>
         <ul>
           <li>
             <Link
