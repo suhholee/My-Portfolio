@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-scroll'
 
 const Header = () => {
@@ -57,25 +57,13 @@ const Header = () => {
           <li>
             <Link
               activeClass="active"
-              to="experience"
+              to="experiences"
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
             >
               Experience
-            </Link>
-          </li>
-          <li>
-            <Link
-              activeClass="active"
-              to="education"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Education
             </Link>
           </li>
           <li>
@@ -152,18 +140,6 @@ const Header = () => {
               duration={500}
             >
               Experience
-            </Link>
-          </li>
-          <li>
-            <Link
-              activeClass="active"
-              to="education"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Education
             </Link>
           </li>
           <li>

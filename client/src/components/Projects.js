@@ -40,7 +40,7 @@ const Projects = () => {
               <img src={django} />
               <img src={postgresql} />
             </div>
-            <p>A Korean league &#40;K-League&#41; version of Fantasy Football. The game is based on the rules of <a href='https://fantasy.premierleague.com/help/rules'>Fantasy Premier League</a>, allowing users to register, select their own team, login, view their team, view their world rankings, and gain current information about the players using CRUD functionality. The project is on-going.</p>
+            <p>A Korean league &#40;K-League&#41; version of Fantasy Football. The game is based on the rules of <a href='https://fantasy.premierleague.com/help/rules'>Fantasy Premier League</a>, allowing users to register, select their own team, login, view their team, view their world rankings, and gain current information about the players using CRUD functionality. The project is on-going, continuing to implement all the functionalities that a normal fantasy game has.</p>
             <div className="links">
               <a href='https://github.com/suhholee/Fantasy-K-League'><img src={github} className='github' /></a>
               <a href='https://fantasy-k-league.herokuapp.com/'><img src={link} className='link' /></a>
