@@ -1,0 +1,76 @@
+.interests {
+  @extend %flex-center;
+  flex-direction: column;
+  padding: 30px 0 60px 0;
+  margin: 30px 0;
+
+  h1 {
+    color: white;
+    font-family: $sub-font;
+    font-size: 50px;
+    padding: 20px 50px;
+    border-bottom: 2px solid white;
+    margin: 20px 0 40px 0;
+    @media (max-width: 992px) {
+      font-size: 40px;
+    }
+    @media (max-width: 768px) {
+      font-size: 35px;
+    }
+    @media (max-width: 576px) {
+      font-size: 30px;
+    }
+    @media (max-width: 450px) {
+      font-size: 25px;
+      padding: 20px 10px;
+    }
+  }
+
+  .interests-container {
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    align-items: flex-start;
+    @media (max-width: 992px) {
+      flex-direction: column;
+      align-items: center;
+      margin: 30px 0;
+    }
+
+    .interest {
+      @extend %flex-center;
+      flex-direction: column;
+      margin: 50px 0;
+      width: 25vw;
+      @media (max-width: 992px) {
+        margin: 30px 0;
+        width: 80vw;
+      }
+
+      img {
+        height: 17.5vh;
+      }
+
+      p {
+        background-color: $light-black;
+        padding: 20px 15px 25px 15px;
+        color: rgb(197, 192, 192);
+        border-radius: 0px;
+        @media (max-width: 1200px) {
+          font-size: 15px;
+        }
+        @media (max-width: 992px) {
+          font-size: 18px;
+          text-align: start;
+          padding: 20px 20px 20px 20px;
+        }
+        @media (max-width: 768px) {
+          font-size: 16px;
+        }
+        @media (max-width: 576px) {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

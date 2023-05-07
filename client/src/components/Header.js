@@ -63,7 +63,7 @@ const Header = () => {
               offset={-70}
               duration={500}
             >
-              Experience
+              Experiences & Education
             </Link>
           </li>
           <li>
@@ -139,7 +139,7 @@ const Header = () => {
               offset={-70}
               duration={500}
             >
-              Experience
+              Experiences & Education
             </Link>
           </li>
           <li>

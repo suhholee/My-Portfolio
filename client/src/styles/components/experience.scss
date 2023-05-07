@@ -1,7 +1,8 @@
 .experiences {
   @extend %flex-center;
   flex-direction: column;
-  padding: 30px 0;
+  padding: 30px 0 60px 0;
+  margin: 30px 0;
 
   h1 {
     color: white;
@@ -119,8 +120,8 @@
           }
           
 
-          a {
-            color: $green;
+          ul {
+            margin: 0 auto;
           }
         }
       }
