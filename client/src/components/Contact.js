@@ -8,9 +8,9 @@ const Contact = () => {
     <div className="contact">
       <h1>Get In Touch</h1>
       <div className="contact-container">
-        <a href='mailto:suhholeemichael@gmail.com'><img src={email} /></a>
-        <a href='https://github.com/suhholee'><img src={github} /></a>
-        <a href='https://www.linkedin.com/in/suhho-lee/'><img src={linkedin} /></a>
+        <a href='mailto:suhholeemichael@gmail.com' target='_blank' rel='noopener noreferrer'><img src={email} /></a>
+        <a href='https://github.com/suhholee' target='_blank' rel='noopener noreferrer'><img src={github} /></a>
+        <a href='https://www.linkedin.com/in/suhho-lee/' target='_blank' rel='noopener noreferrer'><img src={linkedin} /></a>
       </div>
     </div>
   )

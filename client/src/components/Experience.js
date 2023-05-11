@@ -15,7 +15,7 @@ const Experience = () => {
           <div className='content'>
             <h2>Software Engineering Immersive</h2>
             <h3>General Assembly (Jan 2023 - Apr 2023)</h3>
-            <p>The 12-week immersive course (Mon-Fri 9-5) kick-started my career as a software engineer. Through daily lectures, labs, pair programming, and coursework, I can proudly say that I am able to independantly create a full-fledged application that fit industrial standards. Not only I was able to learn the logical and practical side of coding, but also I learned how to effectively plan and cooperate with my fellow colleagues to bring out the most optimum product. I will continue to strive to learn and adapt to the standards of the industry.</p>
+            <p>The 12-week immersive course (Mon-Fri 9-5) kick-started my career as a software engineer. Through daily lectures, labs, pair programming, and coursework, I can proudly say that I am able to independently create a full-fledged application that fit industrial standards. Not only I was able to learn the logical and practical side of coding, but also I learned how to effectively plan and cooperate with my fellow colleagues to bring out the most optimum product. I will continue to strive to learn and adapt to the standards of the industry.</p>
           </div>
         </div>
         <div className="experience-left">

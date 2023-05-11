@@ -28,7 +28,7 @@ const Projects = () => {
             <div className='image-wrapper'></div>
           </div>
           <div className='content'>
-            <h2><a href='https://fantasy-k-league.herokuapp.com/'>Fantasy K-League</a></h2>
+            <h2><a href='https://fantasy-k-league.herokuapp.com/' target='_blank' rel='noopener noreferrer'>Fantasy K-League</a></h2>
             <h3>Solo Project | One Week</h3>
             <div className="stacks">
               <img src={javascript} />
@@ -42,14 +42,14 @@ const Projects = () => {
             </div>
             <p>A Korean league &#40;K-League&#41; version of Fantasy Football. The game is based on the rules of <a href='https://fantasy.premierleague.com/help/rules'>Fantasy Premier League</a>, allowing users to register, select their own team, login, view their team, view their world rankings, and gain current information about the players using CRUD functionality. The project is on-going, continuing to implement all the functionalities that a normal fantasy game has.</p>
             <div className="links">
-              <a href='https://github.com/suhholee/Fantasy-K-League'><img src={github} className='github' /></a>
-              <a href='https://fantasy-k-league.herokuapp.com/'><img src={link} className='link' /></a>
+              <a href='https://github.com/suhholee/Fantasy-K-League' target='_blank' rel='noopener noreferrer'><img src={github} className='github' /></a>
+              <a href='https://fantasy-k-league.herokuapp.com/' target='_blank' rel='noopener noreferrer'><img src={link} className='link' /></a>
             </div>
           </div>
         </div>
         <div className="project-left">
           <div className='content'>
-            <h2><a href='https://woozu-sounds.herokuapp.com/'>WOOZU SOUNDS</a></h2>
+            <h2><a href='https://woozu-sounds.herokuapp.com/' target='_blank' rel='noopener noreferrer'>WOOZU SOUNDS</a></h2>
             <h3>Group Project | One Week</h3>
             <div className="stacks">
               <img src={javascript} />
@@ -61,8 +61,8 @@ const Projects = () => {
             </div>
             <p>WOOZU SOUNDS is an interactive website for users who are attending an imaginary festival named Woozu Sounds. As &ldquo;WOOZU (우주)&rdquo; means &ldquo;UNIVERSE&rdquo; in Korean, the website had a space theme with each entity representing a stage of the festival. My main roles lied with handling complex functionalities, testing, and errors in both front and back-end.</p>
             <div className="links">
-              <a href='https://github.com/suhholee/Festival-MERN-Project'><img src={github} className='github' /></a>
-              <a href='https://woozu-sounds.herokuapp.com/'><img src={link} className='link' /></a>
+              <a href='https://github.com/suhholee/Festival-MERN-Project' target='_blank' rel='noopener noreferrer'><img src={github} className='github' /></a>
+              <a href='https://woozu-sounds.herokuapp.com/' target='_blank' rel='noopener noreferrer'><img src={link} className='link' /></a>
             </div>
           </div>
           <div className='image woozu'>
@@ -76,7 +76,7 @@ const Projects = () => {
             <div className='image-wrapper'></div>
           </div>
           <div className='content'>
-            <h2><a href='https://premier-league-react-project.netlify.app/'>Premier League</a></h2>
+            <h2><a href='https://premier-league-react-project.netlify.app/' target='_blank' rel='noopener noreferrer'>Premier League</a></h2>
             <h3>Solo Project | Two Days</h3>
             <div className="stacks">
               <img src={javascript} />
@@ -86,14 +86,14 @@ const Projects = () => {
             </div>
             <p>This website is a React application that consumed a public API that had the most recent information about the 2022-23 Premier League season. This website has a home page, today’s fixtures, results, league table, and players’ statistics.</p>
             <div className="links">
-              <a href='https://github.com/suhholee/Premier-League-React-Project'><img src={github} className='github' /></a>
-              <a href='https://premier-league-react-project.netlify.app/'><img src={link} className='link' /></a>
+              <a href='https://github.com/suhholee/Premier-League-React-Project' target='_blank' rel='noopener noreferrer'><img src={github} className='github' /></a>
+              <a href='https://premier-league-react-project.netlify.app/' target='_blank' rel='noopener noreferrer'><img src={link} className='link' /></a>
             </div>
           </div>
         </div>
         <div className="project-left">
           <div className='content'>
-            <h2><a href='https://suhholee.github.io/Space-Invaders/'>PITCH INVADERS!</a></h2>
+            <h2><a href='https://suhholee.github.io/Space-Invaders/' target='_blank' rel='noopener noreferrer'>PITCH INVADERS!</a></h2>
             <h3>Solo Project | One Week</h3>
             <div className="stacks">
               <img src={javascript} />
@@ -102,8 +102,8 @@ const Projects = () => {
             </div>
             <p>My first project was a Premier League themed Space Invaders game using vanilla JavaScript. There are four players that you can choose from and three different levels within the game.</p>
             <div className="links">
-              <a href='https://github.com/suhholee/Space-Invaders'><img src={github} className='github' /></a>
-              <a href='https://suhholee.github.io/Space-Invaders/'><img src={link} className='link' /></a>
+              <a href='https://github.com/suhholee/Space-Invaders' target='_blank' rel='noopener noreferrer'><img src={github} className='github' /></a>
+              <a href='https://suhholee.github.io/Space-Invaders/' target='_blank' rel='noopener noreferrer'><img src={link} className='link' /></a>
             </div>
           </div>
           <div className='image pi'>
