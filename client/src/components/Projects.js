@@ -84,7 +84,7 @@ const Projects = () => {
               <img src={sass} />
               <img src={node} />
             </div>
-            <p>This website is a React application that consumed a public API that had the most recent information about the 2022-23 Premier League season. This website has a home page, today’s fixtures, results, league table, and players’ statistics.</p>
+            <p>This website is a React application that consumed a public API that had the most recent information about the 2022-23 Premier League season. It is consisted of a home, today’s fixtures, results, league table, and players’ statistics pages that provides users up-to-date information about the 2022-23 Premier League season.</p>
             <div className="links">
               <a href='https://github.com/suhholee/Premier-League-React-Project' target='_blank' rel='noopener noreferrer'><img src={github} className='github' /></a>
               <a href='https://premier-league-react-project.netlify.app/' target='_blank' rel='noopener noreferrer'><img src={link} className='link' /></a>
