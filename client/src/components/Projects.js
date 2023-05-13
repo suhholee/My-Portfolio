@@ -29,7 +29,7 @@ const Projects = () => {
           </div>
           <div className='content'>
             <h2><a href='https://fantasy-k-league.herokuapp.com/' target='_blank' rel='noopener noreferrer'>Fantasy K-League</a></h2>
-            <h3>Solo Project | One Week</h3>
+            <h3>Solo Project | 10 Days</h3>
             <div className="stacks">
               <img src={javascript} />
               <img src={react} />
@@ -49,7 +49,7 @@ const Projects = () => {
         <div className="project-left">
           <div className='content'>
             <h2><a href='https://woozu-sounds.herokuapp.com/' target='_blank' rel='noopener noreferrer'>WOOZU SOUNDS</a></h2>
-            <h3>Group Project | One Week</h3>
+            <h3>Group Project | 10 Days</h3>
             <div className="stacks">
               <img src={javascript} />
               <img src={react} />
