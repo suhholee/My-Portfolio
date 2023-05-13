@@ -34,7 +34,6 @@ const Projects = () => {
               <img src={javascript} />
               <img src={react} />
               <img src={sass} />
-              <img src={express} />
               <img src={node} />
               <img src={python} />
               <img src={django} />
