@@ -16,6 +16,7 @@ import link from '../images/link.png'
 import github from '../images/github.png'
 import html from '../images/html.png'
 import css from '../images/css.png'
+import rest from '../images/rest.png'
 
 const Projects = () => {
   return (
@@ -37,11 +38,14 @@ const Projects = () => {
               <img src={node} />
               <img src={python} />
               <img src={django} />
+              <img src={rest} />
               <img src={postgresql} />
             </div>
             <p>A Korean league &#40;K-League&#41; version of Fantasy Football. The game is based on the rules of <a href='https://fantasy.premierleague.com/help/rules'>Fantasy Premier League</a>, allowing users to register, select their own team, login, view their team, view their world rankings, and gain current information about the players using CRUD functionality. The project is on-going, continuing to implement all the functionalities that a normal fantasy game has.</p>
             <div className="links">
+              GitHub:
               <a href='https://github.com/suhholee/Fantasy-K-League' target='_blank' rel='noopener noreferrer'><img src={github} className='github' /></a>
+              Website:
               <a href='https://fantasy-k-league.herokuapp.com/' target='_blank' rel='noopener noreferrer'><img src={link} className='link' /></a>
             </div>
           </div>
@@ -60,7 +64,9 @@ const Projects = () => {
             </div>
             <p>WOOZU SOUNDS is an interactive website for users who are attending an imaginary festival named Woozu Sounds. As &ldquo;WOOZU (우주)&rdquo; means &ldquo;UNIVERSE&rdquo; in Korean, the website had a space theme with each entity representing a stage of the festival. My main roles lied with handling complex functionalities, testing, and errors in both front and back-end.</p>
             <div className="links">
+              GitHub:
               <a href='https://github.com/suhholee/Festival-MERN-Project' target='_blank' rel='noopener noreferrer'><img src={github} className='github' /></a>
+              Website:
               <a href='https://woozu-sounds.herokuapp.com/' target='_blank' rel='noopener noreferrer'><img src={link} className='link' /></a>
             </div>
           </div>
@@ -85,7 +91,9 @@ const Projects = () => {
             </div>
             <p>This website is a React application that consumed a public API that had the most recent information about the 2022-23 Premier League season. It is consisted of a home, today’s fixtures, results, league table, and players’ statistics pages that provides users up-to-date information about the 2022-23 Premier League season.</p>
             <div className="links">
+              GitHub:
               <a href='https://github.com/suhholee/Premier-League-React-Project' target='_blank' rel='noopener noreferrer'><img src={github} className='github' /></a>
+              Website:
               <a href='https://premier-league-react-project.netlify.app/' target='_blank' rel='noopener noreferrer'><img src={link} className='link' /></a>
             </div>
           </div>
@@ -101,7 +109,9 @@ const Projects = () => {
             </div>
             <p>My first project was a Premier League themed Space Invaders game using vanilla JavaScript. There are four players that you can choose from and three different levels within the game.</p>
             <div className="links">
+              GitHub:
               <a href='https://github.com/suhholee/Space-Invaders' target='_blank' rel='noopener noreferrer'><img src={github} className='github' /></a>
+              Website:
               <a href='https://suhholee.github.io/Space-Invaders/' target='_blank' rel='noopener noreferrer'><img src={link} className='link' /></a>
             </div>
           </div>

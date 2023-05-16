@@ -185,15 +185,19 @@
         }
 
         .links {
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-end;
           @media (max-width: 992px) {
             text-align: end;
           }
+
           a {
-            margin: 0 auto;
+            margin: 0;
 
             .github, .link {
               width: 20px;
-              margin: 0 8px;
+              margin: 0 15px 0 10px;
             }
 
             .github {
@@ -234,6 +238,10 @@
           @media (max-width: 992px) {
             justify-content: center;
           }
+        }
+
+        .links {
+          justify-content: flex-start;
         }
       }
 
