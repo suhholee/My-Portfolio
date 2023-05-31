@@ -19,6 +19,8 @@ import insomnia from '../images/insomnia.png'
 import tableplus from '../images/tableplus.png'
 import heroku from '../images/heroku.png'
 import netlify from '../images/netlify.png'
+import typescript from '../images/typescript.png'
+import cs50 from '../images/cs50.png'
 
 const AboutMe = () => {
   return (
@@ -31,6 +33,7 @@ const AboutMe = () => {
         <p>The skills and experiences I have acquired in the past have led me to conclude that a career in software engineering is the ideal fit for me. Therefore, I decided to enroll in General Assembly’s Software Engineer Immersive which helped me gain strong knowledge in coding and a unique portfolio to officially pursue a career as a software engineer.</p>
         <p>I inspire to be recognised individual in tech who can flexibly utilise the positives of the current norms to create an innovative product that can shape people’s lives in the future. At this stage of my career, I am looking to enhance my skills and further gain experience as a full-stack developer in a creative and collaborative team. I am also fluent in English, Korean, and can speak beginner level Spanish.</p>
       </div>
+      <h2>🦸‍♂️ My Superpowers are...</h2>
       <div className="icons">
         <div className='icon-single'>
           <img src={javascript}></img>
@@ -111,6 +114,17 @@ const AboutMe = () => {
         <div className='icon-single'>
           <img src={netlify}></img>
           <p>Netlify</p>
+        </div>
+      </div>
+      <h2>🔥 I&#39;m working on some upgrades...</h2>
+      <div className="current">
+        <div className='icon-single'>
+          <img src={typescript}></img>
+          <p>TypeScript</p>
+        </div>
+        <div className='icon-single'>
+          <img src={cs50}></img>
+          <p>Harvard CS50 Course</p>
         </div>
       </div>
     </div>

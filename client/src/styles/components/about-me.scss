@@ -28,6 +28,7 @@
     text-align: start;
     width: 70vw;
     font-size: 20px;
+    margin-bottom: 30px;
     @media (max-width: 992px) {
       width: 80vw;
       font-size: 18px;
@@ -42,15 +43,43 @@
     }
   }
 
+  h2 {
+    color: white;
+    font-family: $sub-font;
+    font-size: 30px;
+    margin: 30px auto;
+    padding: 10px 20px;
+    @media (max-width: 992px) {
+      font-size: 28px;
+      margin: 20px auto;
+    }
+    @media (max-width: 768px) {
+      font-size: 24px;
+      margin: 15px auto;
+    }
+    @media (max-width: 576px) {
+      font-size: 20px;
+      margin: 10px auto;
+    }
+    @media (max-width: 450px) {
+      font-size: 16px;
+      margin: 10px auto;
+    }
+    @media (max-width: 375px) {
+      font-size: 14px;
+      margin: 10px auto;
+    }
+  }
+
   .icons {
     @extend %flex-center;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 50px;
-    width: 48vw;
+    margin-top: 30px;
+    width: 70vw;
     .icon-single {
       text-align: center;
-      width: 12vw;
+      width: 17.5vw;
       margin-bottom: 50px;
       img {
         max-height: 80px;
@@ -64,9 +93,9 @@
     }
 
     @media (max-width: 1350px) {
-      width: 60vw;
+      width: 75vw;
       .icon-single {
-        width: 15vw;
+        width: 18vw;
       }
     }
 
@@ -110,6 +139,75 @@
       width: 88vw;
       .icon-single {
         width: 22vw;
+        img {
+          max-height: 30px;
+        }
+        p {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  .current {
+    @extend %flex-center;
+    .icon-single {
+      text-align: center;
+      width: 17.5vw;
+      margin-bottom: 50px;
+      img {
+        max-height: 80px;
+      }
+      p {
+        margin: 10px auto;
+        font-family: $sub-font;
+        font-weight: bold;
+        font-size: 18px;
+      }
+    }
+
+    @media (max-width: 1350px) {
+      width: 100vw;
+      .icon-single {
+        width: 25vw;
+      }
+    }
+
+    @media (max-width: 992px) {
+      .icon-single {
+        width: 30vw;
+        img {
+          max-height: 50px;
+        }
+      }
+    }
+
+    @media (max-width: 768px) {
+      .icon-single {
+        width: 30vw;
+        img {
+          max-height: 50px;
+        }
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+
+    @media (max-width: 576px) {
+      .icon-single {
+        width: 30vw;
+        img {
+          max-height: 40px;
+        }
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+
+    @media (max-width: 450px) {
+      .icon-single {
         img {
           max-height: 30px;
         }

@@ -133,7 +133,7 @@ const Header = () => {
           <li>
             <Link
               activeClass="active"
-              to="experience"
+              to="experiences"
               spy={true}
               smooth={true}
               offset={-70}
