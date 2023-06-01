@@ -116,7 +116,7 @@ const AboutMe = () => {
           <p>Netlify</p>
         </div>
       </div>
-      <h2>🧪 In the Lab...</h2>
+      <h2>🧪 Powering up...</h2>
       <div className="current">
         <div className='icon-single'>
           <img src={typescript}></img>
