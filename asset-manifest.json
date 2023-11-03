@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.f6ce446c.css",
-    "main.js": "/My-Portfolio/static/js/main.038d0a1a.js",
+    "main.css": "/My-Portfolio/static/css/main.02a7e94e.css",
+    "main.js": "/My-Portfolio/static/js/main.d40c18fc.js",
     "static/media/woozu.gif": "/My-Portfolio/static/media/woozu.d1a2d07d44b7c57b568f.gif",
     "static/media/pi.gif": "/My-Portfolio/static/media/pi.f2bd637b51eb5b4b476a.gif",
     "static/media/fkl.gif": "/My-Portfolio/static/media/fkl.f7afb5d3ff7f193569e4.gif",
@@ -15,6 +15,8 @@
     "static/media/qmit.png": "/My-Portfolio/static/media/qmit.034383d04d59b27825a8.png",
     "static/media/vscode.png": "/My-Portfolio/static/media/vscode.19edc3fbac1c451f289d.png",
     "static/media/ou.png": "/My-Portfolio/static/media/ou.cf242c7b790a67b41d93.png",
+    "static/media/matlab.png": "/My-Portfolio/static/media/matlab.6056bf20ce1b55cfd06b.png",
+    "static/media/r.png": "/My-Portfolio/static/media/r.308b951cfbdb7298effe.png",
     "static/media/link.png": "/My-Portfolio/static/media/link.d81ebc1f8227a85ca1ce.png",
     "static/media/rest.png": "/My-Portfolio/static/media/rest.4028f8f1a87ca6ee52e6.png",
     "static/media/background.jpeg": "/My-Portfolio/static/media/background.9b6172a3768c1e4e541c.jpeg",
@@ -22,7 +24,6 @@
     "static/media/postgresql.png": "/My-Portfolio/static/media/postgresql.a7fa39912c91e079e90b.png",
     "static/media/tableplus.png": "/My-Portfolio/static/media/tableplus.27110b4fcf0072a2b7a9.png",
     "static/media/big.png": "/My-Portfolio/static/media/big.0452d690507b02401873.png",
-    "static/media/cs50.png": "/My-Portfolio/static/media/cs50.37a7459c5388d659f3d5.png",
     "static/media/django.jpeg": "/My-Portfolio/static/media/django.4c399895f677cd3bfbc8.jpeg",
     "static/media/typescript.png": "/My-Portfolio/static/media/typescript.27d81a586e4448a5e671.png",
     "static/media/mongo.png": "/My-Portfolio/static/media/mongo.bc13d228cba17b937dd8.png",
@@ -32,6 +33,7 @@
     "static/media/command-line.png": "/My-Portfolio/static/media/command-line.c1bf71c3dbd264fd25d3.png",
     "static/media/css.png": "/My-Portfolio/static/media/css.463e319bad8e0edf1ef7.png",
     "static/media/html.png": "/My-Portfolio/static/media/html.ff3cf75e3b7cbb4ea77c.png",
+    "static/media/mysql.png": "/My-Portfolio/static/media/mysql.4676ad983d6bd3e9fac9.png",
     "static/media/insomnia.png": "/My-Portfolio/static/media/insomnia.3c574d70fbbc16e0a6a1.png",
     "static/media/python.webp": "/My-Portfolio/static/media/python.7a9da81b5ea6a4550127.webp",
     "static/media/javascript.png": "/My-Portfolio/static/media/javascript.3dfb665e058d08c99f28.png",
@@ -39,11 +41,11 @@
     "static/media/express.png": "/My-Portfolio/static/media/express.9b344d7469dbbdc76754.png",
     "static/media/ga.svg": "/My-Portfolio/static/media/ga.3eaa10ca27201f76e7caa00a069d9576.svg",
     "index.html": "/My-Portfolio/index.html",
-    "main.f6ce446c.css.map": "/My-Portfolio/static/css/main.f6ce446c.css.map",
-    "main.038d0a1a.js.map": "/My-Portfolio/static/js/main.038d0a1a.js.map"
+    "main.02a7e94e.css.map": "/My-Portfolio/static/css/main.02a7e94e.css.map",
+    "main.d40c18fc.js.map": "/My-Portfolio/static/js/main.d40c18fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6ce446c.css",
-    "static/js/main.038d0a1a.js"
+    "static/css/main.02a7e94e.css",
+    "static/js/main.d40c18fc.js"
   ]
 }
