@@ -4,18 +4,27 @@ import big from '../images/big.png'
 import qmit from '../images/qmit.png'
 import ou from '../images/ou.png'
 import bath from '../images/bath.webp'
+import projectwith from '../images/projectwith.png'
 
 const Experience = () => {
   return (
     <div className="experiences">
       <h1>Experiences & Education</h1>
       <div className="experiences-container">
+        <div className="experience-left">
+          <div className='content'>
+            <h2>Business Development Manager</h2>
+            <h3>Project WITH (Aug 2023 - Present)</h3>
+            <p>I lead strategic planning efforts, leveraging data analysis to shape the platform’s services and enhance revenue.<br></br>I am also actively engaged in front-end development of web-based applications.</p>
+          </div>
+          <img src={projectwith} />
+        </div>
         <div className="experience-right">
           <img src={ga} />
           <div className='content'>
             <h2>Software Engineering Immersive</h2>
             <h3>General Assembly (Jan 2023 - Apr 2023)</h3>
-            <p>The 12-week immersive course (Mon-Fri 9-5) kick-started my career as a software engineer. Through daily lectures, labs, pair programming, and coursework, I can proudly say that I am able to independently create a full-fledged application that fit industrial standards. Not only I was able to learn the logical and practical side of coding, but also I learned how to effectively plan and cooperate with my fellow colleagues to bring out the most optimum product. I will continue to strive to learn and adapt to the standards of the industry.</p>
+            <p>A 12-week intensive course on full-stack software development through daily lectures, labs, pair programming, and coursework using languages such as JavaScript and Python and tools such as React, Node.js, Express, MongoDB, and Django.</p>
           </div>
         </div>
         <div className="experience-left">
@@ -31,7 +40,7 @@ const Experience = () => {
           <div className='content'>
             <h2>Product Team Sport Scientist (Internship)</h2>
             <h3>QMIT (May 2021 - Aug 2021)</h3>
-            <p>My experience at QMIT has made a great impact on the pathway of my career. Although I was interested in technology, especially sports tech, I did not have any firsthand experience on how a tech company and its developers operates in a daily basis. Working at QMIT gave me the valuable experience of not only utilising my prior knowledge in analysing data, but also understanding how a tech team works to create the optimum product. I can proudly say that my experience here sparked my passion for a career change.</p>
+            <p>My experience at QMIT has made a great impact on the pathway of my career. Although I was interested in technology, especially sports tech, I did not have any firsthand experience on how a tech company and its developers operates in a daily basis. Working at QMIT gave me the valuable experience of not only utilising my prior knowledge in analysing data, but also understanding how a tech team works to create the optimum product. I can proudly say that my experience here sparked my passion for tech.</p>
           </div>
         </div>
         <div className="experience-left">

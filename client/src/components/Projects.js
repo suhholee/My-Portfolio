@@ -17,12 +17,32 @@ import github from '../images/github.png'
 import html from '../images/html.png'
 import css from '../images/css.png'
 import rest from '../images/rest.png'
+import typescript from '../images/typescript.png'
 
 const Projects = () => {
   return (
     <div className="projects">
       <h1>Things I&#39;ve Built</h1>
       <div className="projects-container">
+        <div className="project-left">
+          <div className='content'>
+            <h2>KFA Challenge</h2>
+            <h3>Paired Project @Project WITH</h3>
+            <div className="stacks">
+              <img src={typescript} />
+              <img src={react} />
+            </div>
+            <p>Admin webpage for the Korea Football Association&#39;s KFA Challenge football program management program.</p>
+            {/* <div className="links">
+              GitHub:
+              <a href='https://github.com/suhholee/Festival-MERN-Project' target='_blank' rel='noopener noreferrer'><img src={github} className='github' /></a>
+              Website:
+              <a href='https://woozu-sounds.herokuapp.com/' target='_blank' rel='noopener noreferrer'><img src={link} className='link' /></a>
+            </div> */}
+          </div>
+          <div className='image'>
+          </div>
+        </div>
         <div className="project-right">
           <div className='image'>
             <img src={fkl} />
