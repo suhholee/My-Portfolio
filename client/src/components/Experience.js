@@ -15,7 +15,7 @@ const Experience = () => {
           <div className='content'>
             <h2>Business Development Manager</h2>
             <h3>Project WITH (Aug 2023 - Present)</h3>
-            <p>I lead strategic planning efforts, leveraging data analysis to shape the platform’s services and enhance revenue.<br></br>I am also actively engaged in front-end development of web-based applications.</p>
+            <p>I lead strategic planning efforts, leveraging data analysis to shape the platform’s services and enhance revenue. I am also actively engaged in front-end development of web-based applications. My other roles include the orchestration and management Project WITH’s player development model by statistically analyzing and visualizing IAMSTRONG (fitness test model) and WITH Sports Type Indicator (sports psychological personality test) data. I also analyze Kick (K League fan app) and K League Fantasy user data in MySQL and MongoDB to create K League Marketing Package. Finally, I lead the research and strategic business planning for collaboration with the J League and Asian Football Confederation.</p>
           </div>
           <img src={projectwith} />
         </div>
