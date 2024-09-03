@@ -32,7 +32,7 @@ const Projects = () => {
               <img src={typescript} />
               <img src={react} />
             </div>
-            <p>Admin webpage for the Korea Football Association&#39;s KFA Challenge football program management program.</p>
+            <p>Admin webpage for the Korea Football Association&#39;s KFA Challenge football program management program. Detailed product images are only provided to users of KFA Challenge. The Github page is set private due to Project WITH&#39;s internal regulations.</p>
             {/* <div className="links">
               GitHub:
               <a href='https://github.com/suhholee/Festival-MERN-Project' target='_blank' rel='noopener noreferrer'><img src={github} className='github' /></a>
@@ -61,7 +61,7 @@ const Projects = () => {
               <img src={rest} />
               <img src={postgresql} />
             </div>
-            <p>A Korean league &#40;K-League&#41; version of Fantasy Football. The game is based on the rules of <a href='https://fantasy.premierleague.com/help/rules'>Fantasy Premier League</a>, allowing users to register, select their own team, login, view their team, view their world rankings, and gain current information about the players using CRUD functionality. The project is on-going, continuing to implement all the functionalities that a normal fantasy game has.</p>
+            <p>A Korean league &#40;K-League&#41; version of Fantasy Football. The game is based on the rules of <a href='https://fantasy.premierleague.com/help/rules'>Fantasy Premier League</a>, allowing users to register, select their own team, login, view their team, view their world rankings, and gain current information about the players using CRUD functionality.</p>
             <div className="links">
               GitHub:
               <a href='https://github.com/suhholee/Fantasy-K-League' target='_blank' rel='noopener noreferrer'><img src={github} className='github' /></a>
