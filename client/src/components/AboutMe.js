@@ -30,13 +30,29 @@ const AboutMe = () => {
       <h1>Who Am I?</h1>
       <div className="content">
         <p className='head'>I strive to find meaningful work that positively influences the lives of others through technology.</p>
-        <p>The spark for my current career path derived from my experience as a sport scientist, in which I was able to understand how technology shapes the working environment in every industrial sector and how teamwork is important in building the optimum product.</p>
+        <p>The spark for my current career path derived from my experience as a sport scientist, in which I was able to understand how data and technology shapes the working environment in every industrial sector and how teamwork is important in building the optimum product.</p>
         <p>These experiences not only served as a foundation of understanding my skills and values, but also allowed me to acknowledge my passion in building innovative products and solutions to impact people’s lives positively. I also believe that my strong teamwork and communication skills were developed through these experiences as I was engaged in an interactive working environment, which enabled me to be adaptable to any given task or situation.</p>
-        <p>I currently work as a business development manager at Project WITH, tackling current issues in the sports industry through data analysis, software development, and strategic planning.</p>
+        <p>I am currently an MS in Data Science student at the University of San Francisco, continuously learning and honing my skills in data science, machine learning, and software development.</p>
         <p>I inspire to be recognised individual in tech who can flexibly utilise the positives of the current norms to create an innovative product that can shape people’s lives in the future.</p>
       </div>
       <h2>🦸‍♂️ My Superpowers are...</h2>
       <div className="icons">
+        <div className='icon-single'>
+          <img src={python}></img>
+          <p>Python</p>
+        </div>
+        <div className='icon-single'>
+          <img src={django}></img>
+          <p>Django</p>
+        </div>
+        <div className='icon-single'>
+          <img src={rest}></img>
+          <p>REST Framework</p>
+        </div>
+        <div className='icon-single'>
+          <img src={postgresql}></img>
+          <p>PostgreSQL</p>
+        </div>
         <div className='icon-single'>
           <img src={javascript}></img>
           <p>JavaScript</p>
@@ -68,22 +84,6 @@ const AboutMe = () => {
         <div className='icon-single'>
           <img src={mongo}></img>
           <p>MongoDB</p>
-        </div>
-        <div className='icon-single'>
-          <img src={python}></img>
-          <p>Python</p>
-        </div>
-        <div className='icon-single'>
-          <img src={django}></img>
-          <p>Django</p>
-        </div>
-        <div className='icon-single'>
-          <img src={rest}></img>
-          <p>REST Framework</p>
-        </div>
-        <div className='icon-single'>
-          <img src={postgresql}></img>
-          <p>PostgreSQL</p>
         </div>
         <div className='icon-single'>
           <img src={vscode}></img>
