@@ -24,14 +24,14 @@ const Experience = () => {
           <div className='content'>
             <h2>Business Analyst</h2>
             <h3>Project WITH (Aug 2023 - Apr 2024)</h3>
-            <p>In this role, I leveraged data analysis to shape the platform’s services (Kick and K League Fantasy) and enhance revenue, eventually raisisng raising $50K and adding 10,000+ users to the WITH ecosystem. I also was actively engaged in front-end development of KFA Challenge&#39;s admin web application. My other roles include the orchestration and management Project WITH’s player development model by statistically analyzing and visualizing IAMSTRONG (fitness test model) and WITH Sports Type Indicator (sports psychological personality test) data.</p>
+            <p>In this role, I leveraged data analysis to shape the platform’s services (Kick and K League Fantasy) and enhance revenue, raisisng raising $50K and adding 10,000+ users to the WITH ecosystem. I also was actively engaged in front-end development of KFA Challenge&#39;s admin web application. My other roles include the orchestration and management Project WITH’s player development model by statistically analyzing and visualizing IAMSTRONG (fitness test model) and WITH Sports Type Indicator (sports psychological personality test) data.</p>
           </div>
           <img src={projectwith} />
         </div>
         <div className="experience-right">
           <img src={ga} />
           <div className='content'>
-            <h2>Software Engineer Fellow</h2>
+            <h2>Software Engineer, Fellow</h2>
             <h3>General Assembly (Jan 2023 - Apr 2023)</h3>
             <p>A 12-week intensive course on full-stack software development through daily lectures, labs, pair programming, and coursework using languages such as JavaScript and Python and tools such as React, Node.js, Express, MongoDB, and Django.</p>
           </div>

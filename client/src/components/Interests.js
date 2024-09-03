@@ -10,7 +10,7 @@ const Interests = () => {
       <div className="interests-container">
         <div className="interest">
           <img src={sports} />
-          <p>I love sports because I believe it is the best medium that brings people together. I play football, baseball, basketball, tennis, badminton and more (recently into golf). I am also into Fantasy Premier League (allowing me to create a K- League version of it).</p>
+          <p>I love sports because I believe it is the best medium that brings people together. I play football(soccer), baseball, basketball, tennis, badminton and more (recently into golf). I am also into Fantasy Premier League (allowing me to create a K- League version of it).</p>
         </div>
         <div className="interest">
           <img src={movies} />

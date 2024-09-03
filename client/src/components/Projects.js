@@ -32,13 +32,11 @@ const Projects = () => {
               <img src={typescript} />
               <img src={react} />
             </div>
-            <p>Admin webpage for the Korea Football Association&#39;s KFA Challenge football program management program. Detailed product images are only provided to users of KFA Challenge. The Github page is set private due to Project WITH&#39;s internal regulations.</p>
-            {/* <div className="links">
-              GitHub:
-              <a href='https://github.com/suhholee/Festival-MERN-Project' target='_blank' rel='noopener noreferrer'><img src={github} className='github' /></a>
+            <p>Admin webpage for the Korea Football Association&#39;s KFA Challenge. Detailed product images are only provided to users of KFA Challenge. The Github page is set private due to Project WITH&#39;s internal regulations.</p>
+            <div className="links">
               Website:
-              <a href='https://woozu-sounds.herokuapp.com/' target='_blank' rel='noopener noreferrer'><img src={link} className='link' /></a>
-            </div> */}
+              <a href='https://www.kfachallenge.org/' target='_blank' rel='noopener noreferrer'><img src={link} className='link' /></a>
+            </div>
           </div>
           <div className='image'>
           </div>

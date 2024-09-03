@@ -9,7 +9,7 @@ const Home = () => {
       <div className='text'>
         <h1>Suhho Lee</h1>
         <div className='sub-text'>
-          <h2 className='typing'>Data, Tech, and Sports</h2>
+          <h2 className='typing'>Data Scientist</h2>
         </div>
       </div>
       <div className="profile">
